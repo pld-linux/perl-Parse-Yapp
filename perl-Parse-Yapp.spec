@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Parse
-%define		pnam	Yapp
+%define	pdir	Parse
+%define	pnam	Yapp
 Summary:	Parse::Yapp Perl module
 Summary(cs):	Modul Parse::Yapp pro Perl
 Summary(da):	Perlmodul Parse::Yapp

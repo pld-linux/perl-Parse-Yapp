@@ -10,7 +10,7 @@ Summary(fr):	Module Perl Parse::Yapp
 Summary(it):	Modulo di Perl Parse::Yapp
 Summary(ja):	Parse::Yapp Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Parse::Yapp ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Parse::Yapp
+Summary(nb):	Perlmodul Parse::Yapp
 Summary(pl):	Modu³ Perla Parse::Yapp
 Summary(pt):	Módulo de Perl Parse::Yapp
 Summary(pt_BR):	Módulo Perl Parse::Yapp

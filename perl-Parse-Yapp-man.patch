@@ -1,0 +1,11 @@
+--- Parse-Yapp-1.05/yapp~	Tue Jul 16 12:33:27 2002
++++ Parse-Yapp-1.05/yapp	Tue Jul 16 12:33:27 2002
+@@ -115,7 +115,7 @@
+ 
+ =head1 SEE ALSO
+ 
+-Parse::Yapp(3) Perl(1) yacc(1) bison(1)
++Parse::Yapp(3) perl(1) yacc(1) bison(1)
+ 
+ 
+ =cut

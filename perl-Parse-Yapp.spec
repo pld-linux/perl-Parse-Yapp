@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Parse
 %define		pnam	Yapp
@@ -21,7 +25,7 @@ Summary(zh_CN):	Parse::Yapp Perl Ä£¿é
 Name:		perl-Parse-Yapp
 Version:	1.05
 Release:	5
-License:	GPL
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	7bfca736d6af36c51edf7a97111a8f3b
@@ -47,10 +51,13 @@ parserów perlowych.
 	INSTALLDIRS=vendor
 %{__make}
 
+%{?with_tests:%{__make} test}
+
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT

@@ -2,8 +2,8 @@
 Summary:	Parse-Yapp perl module
 Summary(pl):	Modu³ perla Parse-Yapp
 Name:		perl-Parse-Yapp
-Version:	1.04
-Release:	3
+Version:	1.05
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl

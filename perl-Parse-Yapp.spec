@@ -20,13 +20,13 @@ Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Parse::Yapp
 Summary(zh_CN):	Parse::Yapp Perl Ä£¿é
 Name:		perl-Parse-Yapp
 Version:	1.05
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 Patch0:		%{name}-man.patch
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -42,7 +42,8 @@ parserów perlowych.
 %patch0 -p1
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -57,6 +58,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %attr(755,root,root) %{_bindir}/yapp
-%{perl_sitelib}/Parse/Yapp.pm
-%{perl_sitelib}/Parse/Yapp
+%{perl_vendorlib}/Parse/Yapp.pm
+%{perl_vendorlib}/Parse/Yapp
 %{_mandir}/man[13]/*

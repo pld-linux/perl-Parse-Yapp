@@ -2,9 +2,9 @@
 Summary:	Parse-Yapp perl module
 Summary(pl):	Modu³ perla Parse-Yapp
 Name:		perl-Parse-Yapp
-Version:	0.31
-Release:	3
-Copyright:	GPL
+Version:	1.00
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Parse/Parse-Yapp-%{version}.tar.gz

@@ -1,14 +1,30 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Parse
-%define	pnam	Yapp
-Summary:	Parse::Yapp perl module
-Summary(pl):	Modu³ perla Parse::Yapp
+%define		pdir	Parse
+%define		pnam	Yapp
+Summary:	Parse::Yapp Perl module
+Summary(cs):	Modul Parse::Yapp pro Perl
+Summary(da):	Perlmodul Parse::Yapp
+Summary(de):	Parse::Yapp Perl Modul
+Summary(es):	Módulo de Perl Parse::Yapp
+Summary(fr):	Module Perl Parse::Yapp
+Summary(it):	Modulo di Perl Parse::Yapp
+Summary(ja):	Parse::Yapp Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	Parse::Yapp ÆÞ ¸ðÁÙ
+Summary(no):	Perlmodul Parse::Yapp
+Summary(pl):	Modu³ Perla Parse::Yapp
+Summary(pt):	Módulo de Perl Parse::Yapp
+Summary(pt_BR):	Módulo Perl Parse::Yapp
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Parse::Yapp
+Summary(sv):	Parse::Yapp Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Parse::Yapp
+Summary(zh_CN):	Parse::Yapp Perl Ä£¿é
 Name:		perl-Parse-Yapp
 Version:	1.05
-Release:	3
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Patch0:		%{name}-man.patch
 BuildRequires:	perl >= 5.6
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildArch:	noarch
@@ -18,11 +34,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Parse::Yapp - Yet Another Perl Parser compiler.
 
 %description -l pl
-Modu³ perla Parse::Yapp - jeszcze jedno narzêdzie do tworzenia
+Modu³ Perla Parse::Yapp - jeszcze jedno narzêdzie do tworzenia
 parserów perlowych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
+%patch0 -p1
 
 %build
 perl Makefile.PL

@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Parse
 %define	pnam	Yapp
-%include	/usr/lib/rpm/macros.perl
 Summary:	Parse-Yapp perl module
 Summary(pl):	Modu³ perla Parse-Yapp
 Name:		perl-Parse-Yapp
 Version:	1.05
-Release:	2
-
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Parse-Yapp - Yet Another Perl Parser compiler.
 Modu³ perla Parse-Yapp.
 
 %prep
-%setup -q -n Parse-Yapp-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL

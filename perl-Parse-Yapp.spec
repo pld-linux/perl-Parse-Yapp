@@ -25,7 +25,7 @@ Modu³ perla Parse-Yapp.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT

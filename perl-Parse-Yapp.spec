@@ -24,7 +24,7 @@ Summary(uk):	Модуль для Perl Parse::Yapp
 Summary(zh_CN):	Parse::Yapp Perl дё©И
 Name:		perl-Parse-Yapp
 Version:	1.05
-Release:	5
+Release:	6
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz

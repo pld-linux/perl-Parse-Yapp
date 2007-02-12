@@ -6,22 +6,22 @@
 %define		pdir	Parse
 %define		pnam	Yapp
 Summary:	Parse::Yapp Perl module
-Summary(cs):	Modul Parse::Yapp pro Perl
-Summary(da):	Perlmodul Parse::Yapp
-Summary(de):	Parse::Yapp Perl Modul
-Summary(es):	Módulo de Perl Parse::Yapp
-Summary(fr):	Module Perl Parse::Yapp
-Summary(it):	Modulo di Perl Parse::Yapp
-Summary(ja):	Parse::Yapp Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Parse::Yapp ÆŞ ¸ğÁÙ
-Summary(nb):	Perlmodul Parse::Yapp
-Summary(pl):	Modu³ Perla Parse::Yapp
-Summary(pt):	Módulo de Perl Parse::Yapp
-Summary(pt_BR):	Módulo Perl Parse::Yapp
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Parse::Yapp
-Summary(sv):	Parse::Yapp Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Parse::Yapp
-Summary(zh_CN):	Parse::Yapp Perl Ä£¿é
+Summary(cs.UTF-8):   Modul Parse::Yapp pro Perl
+Summary(da.UTF-8):   Perlmodul Parse::Yapp
+Summary(de.UTF-8):   Parse::Yapp Perl Modul
+Summary(es.UTF-8):   MÃ³dulo de Perl Parse::Yapp
+Summary(fr.UTF-8):   Module Perl Parse::Yapp
+Summary(it.UTF-8):   Modulo di Perl Parse::Yapp
+Summary(ja.UTF-8):   Parse::Yapp Perl ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«
+Summary(ko.UTF-8):   Parse::Yapp í„ ëª¨ì¤„
+Summary(nb.UTF-8):   Perlmodul Parse::Yapp
+Summary(pl.UTF-8):   ModuÅ‚ Perla Parse::Yapp
+Summary(pt.UTF-8):   MÃ³dulo de Perl Parse::Yapp
+Summary(pt_BR.UTF-8):   MÃ³dulo Perl Parse::Yapp
+Summary(ru.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Parse::Yapp
+Summary(sv.UTF-8):   Parse::Yapp Perlmodul
+Summary(uk.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Parse::Yapp
+Summary(zh_CN.UTF-8):   Parse::Yapp Perl æ¨¡å—
 Name:		perl-Parse-Yapp
 Version:	1.05
 Release:	6
@@ -38,9 +38,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Parse::Yapp - Yet Another Perl Parser compiler.
 
-%description -l pl
-Modu³ Perla Parse::Yapp - jeszcze jedno narzêdzie do tworzenia
-parserów perlowych.
+%description -l pl.UTF-8
+ModuÅ‚ Perla Parse::Yapp - jeszcze jedno narzÄ™dzie do tworzenia
+parserÃ³w perlowych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

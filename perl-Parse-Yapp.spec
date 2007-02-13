@@ -6,22 +6,22 @@
 %define		pdir	Parse
 %define		pnam	Yapp
 Summary:	Parse::Yapp Perl module
-Summary(cs.UTF-8):   Modul Parse::Yapp pro Perl
-Summary(da.UTF-8):   Perlmodul Parse::Yapp
-Summary(de.UTF-8):   Parse::Yapp Perl Modul
-Summary(es.UTF-8):   Módulo de Perl Parse::Yapp
-Summary(fr.UTF-8):   Module Perl Parse::Yapp
-Summary(it.UTF-8):   Modulo di Perl Parse::Yapp
-Summary(ja.UTF-8):   Parse::Yapp Perl モジュール
-Summary(ko.UTF-8):   Parse::Yapp 펄 모줄
-Summary(nb.UTF-8):   Perlmodul Parse::Yapp
-Summary(pl.UTF-8):   Moduł Perla Parse::Yapp
-Summary(pt.UTF-8):   Módulo de Perl Parse::Yapp
-Summary(pt_BR.UTF-8):   Módulo Perl Parse::Yapp
-Summary(ru.UTF-8):   Модуль для Perl Parse::Yapp
-Summary(sv.UTF-8):   Parse::Yapp Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl Parse::Yapp
-Summary(zh_CN.UTF-8):   Parse::Yapp Perl 模块
+Summary(cs.UTF-8):	Modul Parse::Yapp pro Perl
+Summary(da.UTF-8):	Perlmodul Parse::Yapp
+Summary(de.UTF-8):	Parse::Yapp Perl Modul
+Summary(es.UTF-8):	Módulo de Perl Parse::Yapp
+Summary(fr.UTF-8):	Module Perl Parse::Yapp
+Summary(it.UTF-8):	Modulo di Perl Parse::Yapp
+Summary(ja.UTF-8):	Parse::Yapp Perl モジュール
+Summary(ko.UTF-8):	Parse::Yapp 펄 모줄
+Summary(nb.UTF-8):	Perlmodul Parse::Yapp
+Summary(pl.UTF-8):	Moduł Perla Parse::Yapp
+Summary(pt.UTF-8):	Módulo de Perl Parse::Yapp
+Summary(pt_BR.UTF-8):	Módulo Perl Parse::Yapp
+Summary(ru.UTF-8):	Модуль для Perl Parse::Yapp
+Summary(sv.UTF-8):	Parse::Yapp Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl Parse::Yapp
+Summary(zh_CN.UTF-8):	Parse::Yapp Perl 模块
 Name:		perl-Parse-Yapp
 Version:	1.05
 Release:	6

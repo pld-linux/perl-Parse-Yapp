@@ -7,12 +7,12 @@
 Summary:	Parse::Yapp Perl module - Yet Another Perl Parser compiler
 Summary(pl.UTF-8):	Moduł Perla Parse::Yapp - jeszcze jeden kompilator parserów perlowych
 Name:		perl-Parse-Yapp
-Version:	1.05
-Release:	34
+Version:	1.21
+Release:	1
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Parse/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	7bfca736d6af36c51edf7a97111a8f3b
+# Source0-md5:	69584d5b0f0304bb2a23cffcd982c5de
 Patch0:		%{name}-man.patch
 URL:		http://search.cpan.org/dist/Parse-Yapp/
 BuildRequires:	perl-devel >= 1:5.8.0
